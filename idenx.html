@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PLayer Music </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body id="conteudo" >
+    <section>
+        <h4 class="texto">PlayList </h4>
+        <img id="imagem" alt="Capa de disco saboton ">
+        <div id="classificação">
+            <div id="nome-music">
+                <div id="music"></div>
+                <div id="banda"></div>
+                <audio id="audios"></audio>
+            </div>
+            <button id="coração"><i class="bi bi-heart"></i></i></button>
+        </div>
+        
+        <div id="progressão">
+            <div id="progresso">
+                <div id="tempo-music" ></div>
+            </div>
+        </div>
+        
+        <div id="time">
+            <div id="tempoPassado">00:00</div>
+            <div id="tempoTotal">00:00</div>
+        </div>
+        <div id="buttons">
+            <button id="embaralhar" class="button"><i class="bi bi-shuffle"></i></button>
+            <button onclick="voltar()" id="voltar" class="interagir"><i class="bi bi-skip-backward-circle"></i></button>
+            <button id="play" onclick="playMusic()" class="pause"><i class="bi bi-play-fill"></i></button>
+            <button onclick="avançar()" id="avançar" class="interagir"><i class="bi bi-skip-forward-circle"></i></button>
+            <button id="repetir" class="button"><i class="bi bi-arrow-repeat"></i></button>
+        </div>
+        <script src="scrpipt.js"></script>
+    </section>
+</body>
+</html>

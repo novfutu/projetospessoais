@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to bottom,  #fa0000, #2F164F );
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    background-color: inherit;
+    border: none;
+}
+
+#classificação{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+#embaralhar{
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+#repetir{
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+ .pause:hover{
+    background-color: rgba(71, 71, 71, 0.102);
+    border-radius: 60%;
+    cursor: pointer;
+}
+
+
+.interagir{
+    font-size: 1.8em;
+    cursor: pointer;
+}
+
+.pause{
+    font-size: 2.3em;
+}
+
+#imagem{
+    width: 450px;
+    border:  solid white 3px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.581);
+    border-radius: 10px;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+#music{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: #ff8000;
+    margin-bottom: 2px;
+}
+
+
+#banda{
+    font-size: 15px;
+    font-weight: bold;
+    color: #b95d00;
+    margin-bottom: 10px;
+}
+
+#coração{
+    font-size: 1.3em;
+    color: black;
+    cursor: pointer;
+}
+
+#progresso{
+    height: 4px;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#tempo-music{
+    height: inherit;
+    background-color: rgb(209, 3, 3);
+    --progresso : 0%;
+    width: var(--progresso);
+}
+
+#progressão{
+    padding-top: 5px;
+}
+
+.botão-clicado{
+    color: #fa0000;
+}
+
+#time{
+    font-size: 0.5em;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2px;
+    color: white;
+}
+
+#coração{
+    color: #2F164F;
+}
+
+.cor1{
+    background-image: linear-gradient(to bottom,  #fa0000, #2F164F );
+    
+}
+
+.cor2{
+    background-image: linear-gradient(to bottom, #4C9B82, #FDCA30);
+}
+
+
+.cor3{
+    background-image: linear-gradient(to bottom, #BB6C57, #493920);
+}
+
+.cor4{
+    background-image: linear-gradient(to bottom, #3D3A37, #A35417);
+}
+
+.cor5{
+    background-image: linear-gradient(to bottom, #276391, #FFED74);
+}
+
+.cor6{
+    background-image: linear-gradient(to bottom, #BB3449, #FFFDFC);
+}
